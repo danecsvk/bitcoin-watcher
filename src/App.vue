@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <img class="logo" alt="Vue logo" src="./assets/bitcoin-logo.png" />
+    <a href="/">
+      <img class="logo" alt="Vue logo" src="./assets/bitcoin-logo.png" />
+    </a>
     <BitcoinWatcher />
     <p class="footer">
       Created by Daniel Kováč &copy; 2020 (Corona pandemic),
@@ -29,11 +31,11 @@ export default {
 body {
   background-color: #0b0b0b;
 }
-.footer{
-  color: #7847FF;
+.footer {
+  color: #8c8100;
 }
-.footer a{
-  color: #7847FF;
+.footer a {
+  color: #8c8100;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -66,7 +68,7 @@ a,
 p {
   font-family: "Abel";
   color: #8c8100;
-  margin: 0
+  margin: 0;
 }
 
 a:hover {

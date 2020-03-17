@@ -30,8 +30,8 @@
 
     <div class="box">
       <div class="input-container">
-        <input v-model="customCalculation" type="text" required />
-        <label>Custom calculation</label>
+        <input v-model="customCalculation" type="text" required/>
+        <label>Custom calculation (insert BTC)</label>
       </div>
       <p>{{ customCalculation * bitcoinRate }} €</p>
     </div>
@@ -82,7 +82,8 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext");
 
 .box {
-  margin: 30px 0px 0px 0px;
+  width: 300px;
+  margin: 30px auto;
   padding: 10px 100px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
@@ -105,7 +106,7 @@ export default {
   border: 0;
   border-bottom: 1px solid #555;
   background: transparent;
-  width: 100%;
+  width:100%;
   padding: 8px 0 5px 0;
   font-size: 16px;
   color: #8c8100;
@@ -114,7 +115,7 @@ export default {
 .input-container input:focus {
   border: none;
   outline: none;
-  border-bottom: 1px solid #7847ff;
+  border-bottom: 1px solid #8c8100;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 .input-container input:focus ~ label,
